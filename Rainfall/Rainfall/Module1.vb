@@ -6,6 +6,7 @@
         For m As Integer = 1 To 12
             Console.Write("Month " + m.ToString + ": ")
             rainfall(m) = Console.ReadLine
+        Console.Write("Hello. This is a sample string.")
             total += rainfall(m)
         Next
         Dim min As Integer
